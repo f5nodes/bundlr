@@ -46,5 +46,5 @@ else
 	echo -e "Your Bundlr node \e[92msuccessfully installed and running\e[0m!"
     echo -e "To check node logs use command \e[92mdocker-compose -f $HOME/bundlr/validator-rust/docker-compose.yml logs -f --tail=100\e[0m"
     echo -e "To restart the node \e[92mdocker-compose -f $HOME/bundlr/validator-rust/docker-compose.yml restart\e[0m"
-    echo -e "Бекап файл: $HOME/bundlr/validator-rust/wallet.json"
+    echo -e "Бекап файл: \e[92m$HOME/bundlr/validator-rust/wallet.json\e[0m"
 fi
